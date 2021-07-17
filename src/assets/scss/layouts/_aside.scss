@@ -1,0 +1,8 @@
+.aside {
+  &__side-container {
+    @include flex-column;
+    row-gap: 2.5rem;
+    flex-basis: 30rem;
+    flex-shrink: 0;
+  }
+}

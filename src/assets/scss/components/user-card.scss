@@ -1,0 +1,10 @@
+.user-card {
+  background: linear-gradient(red, transparent),
+    linear-gradient(to top left, lime, transparent),
+    linear-gradient(to top right, blue, transparent);
+  background-blend-mode: screen;
+  padding: 2.5rem;
+  border-radius: 0.6rem;
+  height: 16rem;
+  @include flex-column-jcend;
+}

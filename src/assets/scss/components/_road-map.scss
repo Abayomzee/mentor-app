@@ -1,0 +1,7 @@
+.road-map {
+  @include flex-row-aicenter;
+
+  &:not(:last-child) {
+    margin-bottom: 2rem;
+  }
+}

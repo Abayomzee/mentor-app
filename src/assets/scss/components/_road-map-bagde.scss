@@ -1,0 +1,15 @@
+.road-map-bagde {
+  width: 0.8rem;
+  height: 0.8rem;
+  border-radius: 50%;
+
+  &.warn {
+    background-color: $color-9;
+  }
+  &.primary {
+    background-color: $color-10;
+  }
+  &.default {
+    background-color: $color-11;
+  }
+}

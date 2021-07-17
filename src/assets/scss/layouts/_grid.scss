@@ -1,0 +1,14 @@
+.row {
+  @include clearfix;
+  width: 100%;
+}
+
+.center {
+  @include clearfix;
+  max-width: $row-width;
+  margin: 0 auto;
+  @include responsive(tab-land) {
+    padding-left: 1.7rem;
+    padding-right: 1.7rem;
+  }
+}

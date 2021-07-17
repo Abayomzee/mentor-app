@@ -1,0 +1,13 @@
+<svg style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+
+<!-- Icons -->
+<symbol id='icon-plus' width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path opacity="" fillRule="evenodd" clipRule="evenodd" d="M11.7499 7.32727C11.7499 6.91306 11.4141 6.57727 10.9999 6.57727C10.5857 6.57727 10.2499 6.91306 10.2499 7.32727V10.2405H7.33325C6.91904 10.2405 6.58325 10.5763 6.58325 10.9905C6.58325 11.4047 6.91904 11.7405 7.33325 11.7405H10.2499V14.6536C10.2499 15.0678 10.5857 15.4036 10.9999 15.4036C11.4141 15.4036 11.7499 15.0678 11.7499 14.6536V11.7405H14.6666C15.0808 11.7405 15.4166 11.4047 15.4166 10.9905C15.4166 10.5763 15.0808 10.2405 14.6666 10.2405H11.7499V7.32727Z" fill="#ffffff"/>
+<path fillRule="evenodd" clipRule="evenodd" d="M15.6857 1H6.31429C3.04762 1 1 3.31208 1 6.58516V15.4148C1 18.6879 3.0381 21 6.31429 21H15.6857C18.9619 21 21 18.6879 21 15.4148V6.58516C21 3.31208 18.9619 1 15.6857 1Z" stroke="#ffffff" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+</symbol>
+
+
+
+</defs>
+</svg>

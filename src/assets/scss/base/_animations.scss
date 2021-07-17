@@ -1,0 +1,126 @@
+@keyframes slideFromLeft {
+  0% {
+    opacity: 0.2;
+    transform: translateX(1rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideFromTop {
+  0% {
+    opacity: 0.2;
+    transform: translateY(-1.5rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes fadeOutRight {
+  0% {
+    transform: translateX(10rem);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes SlideInRight {
+  0% {
+    transform: translateX(6rem);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes fadeOutRightMin {
+  0% {
+    transform: translateX(0.5rem);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0.5;
+    visibility: hidden;
+  }
+
+  100% {
+    opacity: 1;
+    visibility: visible;
+  }
+}
+
+@keyframes moveInRight {
+  0% {
+    transform: translateX(0);
+    opacity: 1;
+    visibility: visible;
+  }
+  50% {
+    transform: translateX(1rem);
+    opacity: 0;
+    visibility: hidden;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+    visibility: visible;
+  }
+}
+
+@keyframes slideFromBottom {
+  0% {
+    opacity: 0.5;
+    visibility: hidden;
+    transform: translateY(2rem);
+  }
+
+  100% {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+  }
+}
+
+.animate {
+  &-rotate {
+    animation: rotate 1s infinite;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+  }
+
+  &-fadeOutRight {
+    animation: fadeOutRight 0.9s ease;
+  }
+
+  &-fadeIn-list {
+    animation: fadeIn 0.4s ease;
+  }
+  &-slideFromBottom {
+    animation: slideFromBottom 0.5s ease;
+  }
+}

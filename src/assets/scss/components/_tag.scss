@@ -1,0 +1,24 @@
+.tag {
+  background-color: $color-2;
+  color: $color-3;
+  //   display: grid;
+  //   place-items: center;
+  padding: 0.65rem 1.8rem;
+  border-radius: 1rem;
+  font-weight: bold;
+  font-size: 1.2rem;
+  font-family: inherit;
+  transition: 0.4s;
+  cursor: pointer;
+
+  border: none;
+
+  &:focus {
+    outline: none;
+  }
+
+  &.active {
+    background-color: $color-3;
+    color: $color-white;
+  }
+}

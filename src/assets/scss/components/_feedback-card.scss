@@ -1,0 +1,31 @@
+.feedback-card {
+  @include flex-row;
+  background-color: $color-white;
+  border-radius: 0.7rem;
+  box-shadow: 1rem 1rem 2.2rem $color-6;
+  padding: 2rem 2.5rem;
+
+  &__frequency {
+    @include flex-column;
+    border-radius: 1rem;
+    background-color: $color-4;
+    padding: 1rem;
+
+    &__icon {
+      color: $color-2;
+      font-size: 1.5rem;
+    }
+  }
+
+  &__comment {
+    align-self: flex-end;
+
+    &-icon {
+      color: $color-15;
+    }
+  }
+
+  &:not(:last-child) {
+    margin-bottom: 2rem;
+  }
+}

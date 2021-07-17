@@ -1,0 +1,13 @@
+.link {
+  transition: 0.4s;
+  &--1 {
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: $color-3;
+
+    &:hover {
+      text-decoration: none;
+      letter-spacing: 0.5px;
+    }
+  }
+}

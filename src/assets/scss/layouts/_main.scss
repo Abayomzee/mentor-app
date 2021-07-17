@@ -1,0 +1,11 @@
+.main {
+  &__layout {
+    margin-top: 10rem;
+    @include flex-row;
+    gap: 3rem;
+    padding-bottom: 8rem;
+  }
+  &__content {
+    flex-grow: 1;
+  }
+}

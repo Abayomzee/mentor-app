@@ -1,0 +1,4 @@
+.tag-container {
+  @include flex-rowwrap;
+  gap: .9rem;
+}
